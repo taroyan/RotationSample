@@ -48,9 +48,8 @@ Quaternionたまに使うといつもよくわからなくなるので、
 
    Sleapまたはleapを使うことでゆっくり回転できる。
 
-	```
-transform.rotation = Quaternion.Slerp(startPosition.rotation, targetDir, step);　// 現在のゲームオブジェクトの角度から目標の角度までゆっくりと回転させる
-	```
+``` transform.rotation = Quaternion.Slerp(startPosition.rotation, targetDir, step);　// 現在のゲームオブジェクトの角度から目標の角度までゆっくりと回転させる ```
+	
 	
 	startPosition.rotation  :   初期の回転角度（だいたい対象のゲームオブジェクトの現在の角度）
 	
