@@ -34,13 +34,13 @@ Quaternionたまに使うといつもよくわからなくなるので、
   	
    今対象としているゲームオブジェクト(this)の向きに、上記で定義したdirectionの方向の角度を加算したい場合は以下のようにQuaternionをかけてあげるだけで方向を変えることができる。
    
-``` this.transform.rotation = Quaternion.LookRotation(direction) * this.transform.rotation; // directionは上記で作成した単位方向ベクトル  ```
+	``` this.transform.rotation = Quaternion.LookRotation(direction) * this.transform.rotation; // directionは上記で作成した単位方向ベクトル  ```
   
   また、上記の方向を回転させる処理を一文で書くと以下のようになる。
   
-```
+	```
   this.transform.rotation = Quaternion.Euler(new Vector3(0f, 45f, 0f)) * this.transform.rotation;
-```
+	```
 
 
   	
