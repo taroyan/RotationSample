@@ -74,7 +74,7 @@ Quaternionたまに使うといつもよくわからなくなるので、
 
 - forwardとはどういう計算をしているか
   - [https://qiita.com/FuwattoFlower/items/ae5be071ae3405ff70f8](https://qiita.com/FuwattoFlower/items/ae5be071ae3405ff70f8)
-- Quaternion[同士をかけると回転させられるという説明]()
+- Quaternion同士をかけると回転させられるという説明
   - [http://tsubakit1.hateblo.jp/entry/2014/08/02/030919](http://tsubakit1.hateblo.jp/entry/2014/08/02/030919)
 - LookAt関数について
   - [https://www.sejuku.net/blog/69635](https://www.sejuku.net/blog/69635)
